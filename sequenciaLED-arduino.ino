@@ -18,28 +18,28 @@ void setup()
 
 void loop()
 {
-  digitalWrite(branco, HIGH);// Here too can use LED_BUILTIN or 13 (references digital pin 13)
-  delay(200); // Wait for 500 millisecond(s)
+  digitalWrite(branco, HIGH);
+  delay(200); 
   digitalWrite(branco, LOW);
-  delay(10); // Wait for 500 millisecond(s)
-  digitalWrite(verde, HIGH);// Here too can use LED_BUILTIN or 13 (references digital pin 13)
-  delay(300); // Wait for 500 millisecond(s)
+  delay(10); 
+  digitalWrite(verde, HIGH);
+  delay(300); 
   digitalWrite(verde, LOW);
-  delay(10); // Wait for 500 millisecond(s)
-  digitalWrite(amarelo, HIGH);// Here too can use LED_BUILTIN or 13 (references digital pin 13)
-  delay(300); // Wait for 500 millisecond(s)
+  delay(10); 
+  digitalWrite(amarelo, HIGH);
+  delay(300); 
   digitalWrite(amarelo, LOW);
-  delay(10); // Wait for 500 millisecond(s)
-  digitalWrite(vermelho, HIGH);// Here too can use LED_BUILTIN or 13 (references digital pin 13)
-  delay(300); // Wait for 500 millisecond(s)
+  delay(10);
+  digitalWrite(vermelho, HIGH);
+  delay(300); 
   digitalWrite(vermelho, LOW);
-  delay(10); // Wait for 500 millisecond(s)
-  digitalWrite(azul, HIGH);// Here too can use LED_BUILTIN or 13 (references digital pin 13)
-  delay(300); // Wait for 500 millisecond(s)
+  delay(10);
+  digitalWrite(azul, HIGH);
+  delay(300); 
   digitalWrite(azul, LOW);
-  delay(10); // Wait for 500 millisecond(s)
-  digitalWrite(branco2, HIGH);// Here too can use LED_BUILTIN or 13 (references digital pin 13)
-  delay(300); // Wait for 500 millisecond(s)
+  delay(10); 
+  digitalWrite(branco2, HIGH);
+  delay(300);
   digitalWrite(branco2, LOW);
-  delay(5); // Wait for 500 millisecond(s)
+  delay(5);
 }
