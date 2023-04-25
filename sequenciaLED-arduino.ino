@@ -18,7 +18,7 @@ void loop()
 {
   for( int i=5;i>=0;i--){
       digitalWrite(pino[i],HIGH);
-      delay(200);
+      delay(300);
       digitalWrite(pino[i],LOW);
     }
 }
